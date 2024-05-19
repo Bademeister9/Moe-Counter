@@ -1,0 +1,20 @@
+{
+  "name": "moe-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Stahl",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^10.0.0",
+    "compression": "^1.7.4",
+    "db": "^6.0.3",
+    "express": "^4.19.2",
+    "image-size": "^1.1.1",
+    "mime-types": "^2.1.35"
+  }
+}
