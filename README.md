@@ -9,3 +9,14 @@ This project is licensed under the MIT License - see the License file for detail
 ## Acknowledgments
 
 - `/utils /assets` is copied and adapted from [Moe-Counter](https://github.com/journey-ad/Moe-Counter) by journey-ad.
+
+
+![Alt-Text](http://stahl.moe/get/@moe-counter?theme=asoul)
+
+
+
+
+
+
+
+
