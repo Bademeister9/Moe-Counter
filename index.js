@@ -9,7 +9,7 @@ const app = express()
 
 app.get('/get/@:name', (req, res) => {
     const { name } = req.params;
-    const { theme } = req.query;
+    //const { theme } = req.query;
     let inc = db.incrementNumByName(db.cleanInput(name))
     let length = PLACES
     if(inc == null){
@@ -20,8 +20,7 @@ app.get('/get/@:name', (req, res) => {
         'content-type': 'image/svg+xml',
         'cache-control': 'max-age=0, no-cache, no-store, must-revalidate'
     })
-    let images = "asoul" //no other theme atm
-    const renderSvg = themes.getCountImage({ count: inc, images, length })
+    const renderSvg = themes.getCountImage({ count: inc, "asoul", length })
     res.send(renderSvg)
 })
 
