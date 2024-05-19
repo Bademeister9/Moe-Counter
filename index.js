@@ -20,8 +20,8 @@ app.get('/get/@:name', (req, res) => {
         'content-type': 'image/svg+xml',
         'cache-control': 'max-age=0, no-cache, no-store, must-revalidate'
     })
-
-    const renderSvg = themes.getCountImage({ count: inc, theme, length })
+    let images = "asoul" //no other theme atm
+    const renderSvg = themes.getCountImage({ count: inc, images, length })
     res.send(renderSvg)
 })
 
