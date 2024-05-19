@@ -16,6 +16,10 @@ app.get('/get/@:name', (req, res) => {
         db.createObjectByName(db.cleanInput(name))
         inc = 1
     }
+    res.set({
+        'content-type': 'image/svg+xml',
+        'cache-control': 'max-age=0, no-cache, no-store, must-revalidate'
+    })
 
     const renderSvg = themes.getCountImage({ count: inc, theme, length })
     res.send(renderSvg)
