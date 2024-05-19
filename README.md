@@ -1,4 +1,4 @@
-# My Project
+# Moe-Counter
 
 This project is a combination of my original code and some code copied from other MIT-licensed projects.
 
@@ -8,4 +8,4 @@ This project is licensed under the MIT License - see the License file for detail
 
 ## Acknowledgments
 
-- `/utils /assets` is copied and adapted from [Original Project](https://github.com/journey-ad/Moe-Counter) by journey-ad.
+- `/utils /assets` is copied and adapted from [Moe-Counter](https://github.com/journey-ad/Moe-Counter) by journey-ad.
